@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #000000;
+    line-height: 1.5;
+}
+
+.navigation {
+    background-color: #000000;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    float: left;
+    margin-left: 30px;
+}
+
+.logo1 {
+    width: 280px;
+}
+
+.menu {
+    /* display: flex;
+    list-style: none;
+    padding: 0; */
+    margin-left: 420px;
+    font-size: 20px;
+}
+
+/* .menu li {
+    margin-left: 20px;
+} */
+
+.menu a{
+    justify-content: space-between;
+  }
+
+
+  .menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    /* background-color: #000000; */
+  }
+  
+  
+  .menu li {
+    float: left;
+    padding: 10px 15px;
+  }
+.menu li a {
+    display: block;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 1px 22px;
+    border-radius: 20px;
+}
+
+.menu li a:hover {
+    background-color: #bbb;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto 0; /* Adjusted margin for fixed navbar */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #630000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #300;
+}
+
+
+@media only screen  and (max-width : 768px){
+    .navigation {
+      flex-wrap: wrap;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      background-color: #000000;
+    }
+   
+    .wrapper ul {
+      flex-direction: column;
+      width: 100%;
+      height: 150px;
+      margin-top: 50px;
+      list-style-type: none;
+      overflow: hidden;
+    }
+    .wrapper ul li  {
+      text-align: center;
+    }
+    .wrapper ul li a {
+      text-decoration: none; 
+      color: #eee;
+      background-color: #630000;
+      font-weight: bolder;
+      border-radius: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 20px;
+      
+    }
+    .wrapper ul li:last-of-type{
+      padding-bottom: 8px;
+    }
+  
+    .navigation ul.menu {
+      display: none;
+      background-color: #eee;
+    }
+  
+    .men-icon {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 670px;
+    margin-top: 25px;
+    }
+}
+
+@media only screen  and (max-width : 430px){
+    .navigation {
+        flex-wrap: wrap;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: #000000;
+      }
+     .logo1{
+        width: 200px;
+        margin-left: -30px;
+     }
+      .wrapper ul {
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+        margin-top: 50px;
+        list-style-type: none;
+        overflow: hidden;
+      }
+      .wrapper ul li  {
+        text-align: center;
+      }
+      .wrapper ul li a {
+        text-decoration: none; 
+        color: #eee;
+        background-color: #630000;
+        font-weight: bolder;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+        
+      }
+      .wrapper ul li:last-of-type{
+        padding-bottom: 8px;
+      }
+    
+      .navigation ul.menu {
+        display: none;
+        background-color: #eee;
+      }
+    
+      .men-icon {
+      font-size: 50px;
+      color: rgb(255, 255, 255);
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      margin-left: 350px;
+      }
+}
