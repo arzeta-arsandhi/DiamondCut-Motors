@@ -1,1 +1,2 @@
 # DiamondCut-Motors
+DiamondCut Motors adalah project mata kuliah Human Computer Interaction (HCI) pada semester 2. Project ini berfokus pada pengembangan website frontend menggunakan HTML, CSS, dan JavaScript. Website ini menghadirkan beberapa fitur utama seperti Home, Cars, Showroom, About Us, dan Login yang dirancang untuk melatih keterampilan perancangan antarmuka pengguna, navigasi, serta implementasi desain web yang interaktif dan responsif.
